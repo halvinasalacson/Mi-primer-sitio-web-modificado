@@ -88,8 +88,8 @@
                 </tr>    
                 </tbody>
             </table>
-            <p style="background-color: white; border: orangered; text-align: center;"> <h3> Meme records </h3> </p>
             <form id="Memetracker" method="post" action="ejercicio02.0.1.html" style="background: center; background-color: white; border: 2px solid palevioletred;">
+                <h3 style="text-align: center"> Meme records </h3>
                 Meme
                 <input name="Memename" type="text">
                 </p>
@@ -101,11 +101,11 @@
                 <label><input type="radio" name="Status" value="Alive" id="Memestatus_alive"> Alive </label>
                 </p> 
                 <p>Maker<br>
-                <label><input type="radio" name="makerO" value="original" id="original">Original <label> <input type="url" name="makerO" id="makerOname"></label></label>
-                <label><input type="radio" name="makerNO" value="not_original" id="not_original">Not original <label> (type original): <input type="url" name="makerNOorg" id="makerNOorg"></label></label>
-                <label><input type="radio" name="makerI" value="inspired_by" id="inspired_by">Inspired by <label> <input type="url" name="makerIinsp" id="makerIinsp"></label></label>
+                <label><input type="radio" name="makerO" value="original" id="original">Original <label> <input type="text" name="makerO" id="makerOname"></label></label>
+                <label><input type="radio" name="makerNO" value="not_original" id="not_original">Not original <label> (type original): <input type="text" name="makerNOorg" id="makerNOorg"></label></label>
+                <label><input type="radio" name="makerI" value="inspired_by" id="inspired_by">Inspired by <label> <input type="text" name="makerIinsp" id="makerIinsp"></label></label>
                 <p>
-                <label> Context: <input type="url" name="context" id="context"> ·</label>
+                <label> Context: <input type="text" name="context" id="context"> ·</label>
                 </p>
                 <input type="submit" value="Submit">
                 <input type="reset" value="Reset">
