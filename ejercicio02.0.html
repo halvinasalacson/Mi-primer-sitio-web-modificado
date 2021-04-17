@@ -6,12 +6,33 @@
         <meta name="author" content="Hal Vin Asa Lacson">
         <meta name="viewport" content="width=device-width, user-scalable=no">
         <title> Table and list of memes </title> 
+        <style>
+            .bgwt {
+                text-align: center;
+                background-color: white;
+                padding: 10px;
+                font-family: Comic Sans MS;
+                margin-bottom: 10px;
+            }
+            #title  {
+                text-align: center;
+                background-color: white;
+                padding: 15px;
+                font-family: Comic Sans MS;
+                font-weight: bold;
+                margin-bottom: 10px;
+                text-transform: uppercase;
+            }
+            body {
+                text-align: center;
+            }
+        </style>
     </head>
     <body background="background.png"; style="background-size: 100% 100%;">
-        <header style="text-align: center; border: 2px solid green; background-color: white;"> <h2 style="color: rgb(0, 119, 255);"> Table and list of memes </h2> </header>
+        <header style="border: 2px solid green" id="title"> <h2 style="color: rgb(0, 119, 255);"> Table and list of memes </h2> </header>
         <section> 
-            <ul style="background-color: white; border: 2px solid red; margin-bottom: 10px;">
-                <h3>Memes</h3>
+            <ul style="border: 2px solid red" class="bgwt">
+                <h3 id="title" style="color: orange;">List of memes</h3>
                 <ol>
                 <li>Piano cat</li>
                 <li>Rage comics</li>
@@ -24,9 +45,8 @@
                 <li>[REDACTED]</li>
                 </ol>
             </ul>
-
-            <table style="text-align: center; background-color: white; border: 2px solid chartreuse; margin-bottom: 10px;">
-                <caption style="background-color: white; border: 2px solid blue; margin-bottom: 10px;"> <h3> Status of memes </h3> </caption>
+            <table style="border: 2px solid chartreuse" class="bgwt">
+                <caption style="border: 2px solid blue" id="title"> <h3 style="color: palevioletred;"> Status of memes </h3> </caption>
                 <thead>
                     <tr>
                     <th style="width:33.3%"> <h4> Meme </h4> </th>
@@ -88,8 +108,8 @@
                 </tr>    
                 </tbody>
             </table>
-            <form id="Memetracker" method="post" action="ejercicio02.0.1.html" style="background: center; background-color: white; border: 2px solid palevioletred;">
-                <h3 style="text-align: center"> Meme records </h3>
+            <form id="Memetracker" method="post" action="ejercicio02.0.1.html" style="border: 2px solid palevioletred;" class="bgwt">
+                <h3 id="title" style="color: indigo;"> Meme records </h3>
                 Meme
                 <input name="Memename" type="text">
                 </p>
@@ -110,9 +130,9 @@
                 <input type="submit" value="Submit">
                 <input type="reset" value="Reset">
                 </form>
-            <nav> <p style="text-align: center;"> <a href="Primer sitio web - Hal Vin Asa Lacson.html" style="text-align: center;"> <mark style="color: rgb(153, 0, 255);"> Back to main page </mark> </a> </p> </nav>
+            <nav> <p> <a href="Primer sitio web - Hal Vin Asa Lacson.html"> <mark style="color: rgb(153, 0, 255); font-family: comic sans ms;"> Back to main page </mark> </a> </p> </nav>
         </section>
-        <footer style="border: 2px solid gray; background-color: white;">
+        <footer style="border: 2px solid gray" class="bgwt">
             <p style="text-align: center;"> No copyrights(this isn't YouTube) </p> 
             <p style="text-align: center;"> Author - Hal Vin Asa Lacson </p> 
             <p style="text-align: center;"> 06/09/1420 </p> 
